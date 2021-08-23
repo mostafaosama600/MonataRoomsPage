@@ -3,6 +3,9 @@
   padding: 0;
   font-family: "Raleway", sans-serif;
 }
+a{
+  text-decoration: none;
+}
 .nav-bkgrd{
   background-color: transparent;
 }
@@ -48,6 +51,7 @@
 }
 
 
+/* start of Ongoing Offers  */
 
 .button-Ongoing{
   width: 100%;
@@ -67,3 +71,47 @@
   color: #009dff;
 
 }
+/* end of Ongoing Offers  */
+
+ /* start of Featured Rooms  */
+
+/* .room-item{
+  width: 100%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+} */
+.room-link:hover{
+  color: #009dff !important;
+
+}
+ /* end of Featured Rooms  */
+
+ .phone-nu{
+  background: #009dff;
+  color: #fff;
+  padding: 12px 53px;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 18px;
+  border: 1px solid transparent;
+ }
+ .phone-nu:hover{
+  background: #fff;
+  color: #009dff;
+  padding: 12px 53px;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 18px;
+  border: 1px solid #009dff;
+ }
+ 
+
+ .gallery-item{
+width: 20%;
+ }
